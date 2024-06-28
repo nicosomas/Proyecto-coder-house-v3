@@ -1,5 +1,5 @@
 body {
-  font-family:"Poppins", sans-serif ;
+  font-family: "Poppins", sans-serif;
   background-color: #0a0a0a;
   font-weight: 500;
   font-style: normal;
@@ -22,9 +22,11 @@ h5 {
   font-style: oblique;
   color: #f8f8f8;
 }
-h6{
+
+h6 {
   color: #f8f8f8;
 }
+
 p {
   margin-top: 10px;
   color: #f2f2f2;
@@ -84,13 +86,13 @@ header {
   margin-bottom: 10px;
   text-align: center;
   color: #000000;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .card-subtitle, .card-text, .card-link {
   text-align: center;
   margin-bottom: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .card-subtitle {
@@ -123,9 +125,11 @@ ion-icon {
 .product-1:hover {
   transform: scale(1.1);
 }
-.product-txt{
+
+.product-txt {
   color: #f2f2f2;
 }
+
 .product-content {
   display: flex;
   justify-content: flex-start;
@@ -178,12 +182,13 @@ ion-icon {
   display: block;
   margin: 0 auto;
 }
-.btt-2{
-color: #fffefe;
 
+.btt-2 {
+  color: #fffefe;
 }
+
 .btn-primary:hover, .btn-btn-primary:hover {
-  background-color: #4690e6be;
+  background-color: rgba(70, 144, 230, 0.7450980392);
 }
 
 .textSection {
@@ -193,7 +198,7 @@ color: #fffefe;
   padding: 20px;
   max-width: 600px;
   margin: 20px auto;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .textSectionTitle {
@@ -252,7 +257,6 @@ textarea.form-control {
     padding: 20px;
   }
 }
-
 @media only screen and (max-width: 480px) {
   body {
     font-size: 14px;
@@ -276,3 +280,5 @@ textarea.form-control {
     display: block;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
